@@ -1,7 +1,7 @@
 Summary: Library of Python code used by installation and configuration tools
 Name: python-rhpl
 Version: 0.212
-Release: %mkrel 4
+Release: %mkrel 5
 Source0: rhpl-%{version}.tar.bz2
 License: GPLv2+
 Group: Development/Python
