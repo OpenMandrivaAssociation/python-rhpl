@@ -30,13 +30,13 @@ The rhpl package contains Python code used throughout the system.
 
 
 %install
-rm -rf $RPM_BUILD_ROOT
+rm -rf %{buildroot}
 %makeinstall_std
 
 %find_lang rhpl
 
 %clean
-rm -rf $RPM_BUILD_ROOT
+rm -rf %{buildroot}
 
 %files -f rhpl.lang
 %defattr(-,root,root)
